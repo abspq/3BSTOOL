@@ -24,7 +24,7 @@ ss = str(now.second)
 t = mm + '/' + dd + '/' + yyyy + ' ' + hour + ':' + mi + ':' + ss
 hours = now.hour
 x = datetime.datetime.now()
-g = datetime.datetime(2023, 10, 1, 0, 0, 0)
+g = datetime.datetime(2023, 11, 25, 0, 0, 0)
 if x.strftime('%x') > g.strftime('%x'):
     print('\n\n')
     print('توقفت الاداة - Y_N_1@ ')
